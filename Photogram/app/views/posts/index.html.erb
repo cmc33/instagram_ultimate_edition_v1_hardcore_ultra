@@ -3,4 +3,7 @@
 <h1>Photogram</h1>
 <% @posts.each do |post| %>
   <%= render 'post', post: post %>
+
+= paginate @posts
 <% end %>
+
