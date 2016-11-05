@@ -4,6 +4,6 @@
 <% @posts.each do |post| %>
   <%= render 'post', post: post %>
 
-= paginate @posts
+<%= paginate @posts %>
 <% end %>
 
